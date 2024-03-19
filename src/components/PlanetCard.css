@@ -1,0 +1,43 @@
+
+
+.planet-card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: linear-gradient(33deg, var(--gradient-start), var(--gradient-end));
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: rgba(79, 124, 5, 0.35) 0px 10px 15px;
+    color: var(--secondary-text-color); 
+    transition: 1s box-shadow ease-in-out;
+}
+
+.planet-card:hover {
+    box-shadow: 0px 0px 10px 5px rgba(223, 28, 28, 0.7);
+}
+
+.residentList{
+    /* box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 2px; */
+    margin-top: 10px;
+   margin-bottom: 15px;
+   transition: 1s background-color ease-in-out;
+}
+   
+.residentList:hover{
+    background-color: rgb(119, 189, 250);
+}
+
+.residentList:hover span {
+    display: none;
+}
+
+.residentList:hover:after {
+    content: "Click to get Resident List";
+    font-weight: bold;
+}
+
+  

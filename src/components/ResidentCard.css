@@ -1,0 +1,26 @@
+.residentNumber {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.resident{
+    cursor: 'pointer';
+    margin-bottom: 10px;
+}
+
+.residentInfo {
+    margin-top: 5px;
+    /* width: auto; */
+    position: absolute;
+    background: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgb(206, 199, 238) 100%);
+    box-sizing: border-box;
+    padding: 0 5px; 
+    border: 2px solid black;
+    z-index: 3; 
+    border-radius: 5px; 
+     min-width: 100px; 
+}
